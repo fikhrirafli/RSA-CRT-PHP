@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    background: rgb(249,233,233);
+    background: linear-gradient(52deg, rgba(249,233,233,1) 0%, rgba(255,152,145,1) 14%, rgba(246,233,233,1) 48%, rgba(255,149,149,1) 86%, rgba(255,172,172,1) 100%);
+}
+
+.teks{
+    color :rgb(249,233,233);
+}

@@ -1,0 +1,35 @@
+$primary : #a8212e;
+$warning : #8a1621;
+
+$theme-colors: (
+    "primary": $primary,
+    "warning": $warning,
+  );
+ 
+@import "./plugin/node_modules/bootstrap/scss/bootstrap.scss";
+
+.teks{
+    color : $gray-400;
+}
+
+.radius{
+    border-radius: 20px;
+}
+
+.colorwhite { 
+   background: #ffeef0 !important; 
+}
+
+.sidebar:hover{
+    background: #8a1621 !important; 
+}
+
+.form-label {
+margin-bottom: 0;
+}
+
+
+body{
+background: rgb(249,233,233);
+background: linear-gradient(39deg, rgba(249,233,233,1) 0%, rgba(255,152,145,1) 14%, rgba(246,233,233,1) 48%, rgba(255,149,149,1) 86%, rgba(255,172,172,1) 100%);
+}
